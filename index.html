@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>
+      Country Selector
+    </title>
+  </head>
+  <body>
+    <!-- <div id="div"></div> -->
+    <div id="loader" class="loader"></div>
+    <div id="main" class="hide">
+      <h1>Country selector</h1>
+      <div id="country-selector" class="country-selector">
+        <div class="country-selector__input">
+          <img class="country-selector__input__icon country-selector__input__icon--search" src="styles/assets/img/search.svg" alt="search">
+          <img id="remove-icon" class="country-selector__input__icon country-selector__input__icon--remove hide" src="styles/assets/img/cancel.svg" alt="cancel">
+          <input id="country-selector__input">
+        </div>
+        <div id="country-selector-options" class="country-selector__content"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js" defer></script>
+</html>
